@@ -64,7 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0px;
+    padding: 80px 50px 40px;
 }
 .banner h1,
 .banner p {
@@ -86,8 +86,8 @@
 }
 
 .img_banner img{
-    width: 600px;
-    height: 350px;
+    width: 500px;
+    height: 300px;
 }
 
 .banner_2{
@@ -95,6 +95,7 @@
     justify-content: center;
     align-items: center;
     margin: 100px 0px;
+    padding: 100px 50px 0px 0px;
 }
 .banner_2 h1,
 .banner_2 p {
@@ -116,14 +117,15 @@
 }
 
 .img_banner_2 img{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
 }
 
 .banner_3{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .banner_3 h1,
@@ -146,9 +148,101 @@
 }
 
 .img_banner_3 img{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     margin-bottom: 60px;
 }
 
+.banner_4{
+    background-color: #043873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px 100px 0px;
+    margin-bottom: 100px;
+}
+
+.banner_4 h1,
+.banner_4 p {
+    color: #FFF;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner_4 button{
+    margin: 60px 0px 0px 50px;
+}
+
+.banner_4 h1 {
+    font-size: 50px;
+}
+
+.banner_4 p {
+    font-size: 14px;
+}
+
+.img_banner_4 img{
+    width: 500px;
+    height: 300px;
+}
+
+.banner_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.banner_5 h1,
+.banner_5 p {
+    color: #000;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner_5 button{
+    margin: 60px 0px 0px 50px;
+}
+
+.banner_5 h1 {
+    font-size: 50px;
+}
+
+.banner_5 p {
+    font-size: 14px;
+}
+
+.img_banner_5 img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+.price{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.price_header h1{
+    font-weight: bold;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.price_header p{
+    font-size: 14px;
+}
+
+.price_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_board1 img,
+.price_board2 img,
+.price_board3 img{
+    width: 350px;
+    height: 500px;
+}
 
