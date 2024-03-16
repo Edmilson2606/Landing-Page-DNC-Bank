@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1920px;
+}
+
+.logo{
+    width: 191px;
+    height: 60px;
+}
+
+.navbar-container {
+    height: 92px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #043873;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 60px;
+    display: inline-block;
+    margin-right: 220px;
+}
+
+.navbar-items li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #ccc;
+}
+
+.btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+#btn_1{
+    margin-left: 100px;
+    background-color: #FFE492;
+}
+
+#btn_2{
+    background-color: #4F9CF9;
+}
+
+.banner{
+    background-color: #043873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+.banner h1,
+.banner p {
+    color: #fff;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner button{
+    margin: 50px 0px 0px 50px;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner p {
+    font-size: 14px;
+}
+
+.img_banner img{
+    width: 600px;
+    height: 350px;
+}
+
+.banner_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+.banner_2 h1,
+.banner_2 p {
+    color: #000;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner_2 button{
+    margin: 60px 0px 0px 50px;
+}
+
+.banner_2 h1 {
+    font-size: 50px;
+}
+
+.banner_2 p {
+    font-size: 14px;
+}
+
+.img_banner_2 img{
+    width: 600px;
+    height: 400px;
+}
+
+.banner_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_3 h1,
+.banner_3 p {
+    color: #000;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner_3 button{
+    margin: 60px 0px 0px 50px;
+}
+
+.banner_3 h1 {
+    font-size: 50px;
+}
+
+.banner_3 p {
+    font-size: 14px;
+}
+
+.img_banner_3 img{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+
