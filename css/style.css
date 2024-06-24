@@ -1,0 +1,28 @@
+:root {
+    --blue: #043873;
+    --blue-light: #4F9CF9;
+    --biege: #FFE492;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: Inter;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.color-write {
+    color: var(--white);
+}
+
+.bg-btn-login {
+    background-color: var(--biege);
+    color: var(--blue);
+}
+
+.bg-btn-count {
+    background-color: var(--blue-light);
+    color: var(--white);
+}
