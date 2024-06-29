@@ -17,6 +17,10 @@ body {
     color: var(--white);
 }
 
+.color-biege {
+    color: var(--biege);
+}
+
 .bg-btn-login {
     background-color: var(--biege);
     color: var(--blue);
@@ -25,4 +29,8 @@ body {
 .bg-btn-count {
     background-color: var(--blue-light);
     color: var(--white);
+}
+
+.bg-btn-price {
+    background-color: var(--white);
 }
